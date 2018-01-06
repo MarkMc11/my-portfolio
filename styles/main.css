@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section {
   font-size: 4.2rem;
-  min-height: 70vh;
+  min-height:20vh;
   position: relative;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -103,6 +103,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   margin-bottom: 2rem;
   width: 50%;
+}
+
+.section--aboutme {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .section__text--centered {
@@ -144,10 +149,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__exampleImage {
-  opacity: 0.25;
-  width: 250%;
-  margin-left: -50%;
-  margin-top: -50%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(images/about3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/about3.jpg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
 }
 
 /*
