@@ -149,11 +149,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__exampleImage {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(images/about3.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/about3.jpg);
-  background-size: cover;
-  color: #fff;
-  background-attachment: fixed;
+    opacity: 0.25;
+    width: 250%;
+    margin-left: -50%;
+    margin-top: -50%;
 }
 
 /*
